@@ -1,6 +1,9 @@
 body {
     background-color: rgba(0, 0, 0);
     font-family: Helvetica;
+    background-image: url(https://media3.giphy.com/media/QWvrm9qorO2SJMtgYs/giphy.gif);
+    /* background-repeat: space; */
+    background-size: 70%;
 }
 
 .pre {
@@ -91,43 +94,19 @@ p {
     flex-direction: column;
     margin: 50px;
 }
+
 .project-div {
     height: 270px;
     width: 900px;
     padding: 20px;
     color: rgba(227, 157, 132);
     display: flex;
-    margin: 30px;
+    margin: 50px;
 }
 
-.first-div {
-    height: 320px;
-    width: 600px;
-    margin-left: 50px;
-    margin-bottom: 80px;
-    border-radius: 10px;
-    color: rgba(227, 157, 132);
-    display: flex;
-}
 
-.second-div {
-    height: 270px;
-    width: 600px;
-    margin-left: 50px;
-    margin-bottom: 80px;
-    border-radius: 10px;
-    color: rgba(227, 157, 132);
-    display: flex;
-}
 
-.third-div {
-    height: 270px;
-    width: 600px;
-    margin-left: 50px;
-    border-radius: 10px;
-    color: rgba(227, 157, 132);
-    display: flex;
-}
+
 
 .description-p {
     margin-top: 30px;
@@ -146,10 +125,16 @@ p {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+
+}
+
+.img-size {
+    width: 320px;
+    /* height: 120px; */
 }
 
 .isa-div {
-    border: solid 1px bisque;
+    /* border: solid 1px bisque; */
     padding: 10px;
     width: 380px;
     height: 100px;
