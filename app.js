@@ -12,7 +12,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// --- fade in after clicking anchor tag to same page link --- 
+// --- fade in functions --- 
 
 $(document).ready(function(){
     $(".underline").click(function(){
@@ -20,15 +20,24 @@ $(document).ready(function(){
     });
   });
 
-// $(document).ready(function(){
-// $(".projects").click(function(){
-//     $("#projects-container").fadeIn(2000);
-// });
-// });
+//--about--
+  $(document).ready(function(){
+    $(".about").click(function(){
+      $("#about").fadeIn(2000);
+    });
+  });
 
 //--skills section--
 $(document).ready(function(){
     $(".skill").click(function(){
       $("#show-skills").fadeIn(2000);
+    });
+  });
+
+//--projects div ---
+
+$(document).ready(function(){
+    $(".projects").click(function(){
+      $(".project-content").fadeIn(2000);
     });
   });
