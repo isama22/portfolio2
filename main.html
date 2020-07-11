@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Isa Sofia Martinez</title>
     <link rel="stylesheet" href="main.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script defer src="app.js"></script>
 </head>
 
 <body>
@@ -25,9 +28,9 @@
     </pre>
         </div>
         <div class="page-link">
-            <a href="#about" class="underline">About</a>
-            <a href="#skill" class="underline">Skills</a>
-            <a href="#fp-header" class="underline">Projects</a>
+            <a href="#about" class="">About</a>
+            <a class="skill">Skills</a>
+            <a href="#projects-container" class="projects">Projects</a>
             <a href="#work-links-container" class="underline">Contact</a>
         </div>
         <div class="header">
@@ -39,13 +42,13 @@
                     programming.
                 </p>
             </div>
-            <div id="skill">
-                <p>I'm versed in: • Javascript • CSS • Python • Django • React • MongoDB • Node.js • Express •
+            <div id="skill" >
+                <p id="show-skills" style="display: none;"> Javascript • CSS • Python • Django • React • MongoDB • Node.js • Express •
                     JWT • AWS S3 • postgreSQL.</p>
             </div>
 
         </div>
-        <div class="projects-container">
+        <div id="projects-container">
             <div class="fp-header-div">
                 <h4 id="fp-header">Some Things I've Built:</h4>
             </div>
@@ -125,12 +128,12 @@
             </div>
         </div>
         <div id="work-links-container">
-            <div class="work-links">
-                <a href="https://www.canva.com/design/DAD_MZ2i_F0/4ys3HR6Gb9x3K9ReKLfgbA/view?utm_content=DAD_MZ2i_F0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+            <div>
+                <a class="work-links" style="display: none;" href="https://www.canva.com/design/DAD_MZ2i_F0/4ys3HR6Gb9x3K9ReKLfgbA/view?utm_content=DAD_MZ2i_F0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
                     target="_blank">Resume</a>
-                <a href="https://www.linkedin.com/in/isa-sofia-martinez/" target="_blank">LinkedIn</a>
-                <a href="https://github.com/isama22" target="_blank">GitHub</a>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=isasofma@gmail.com" target="_blank"
+                <a class="work-links" style="display: none;" href="https://www.linkedin.com/in/isa-sofia-martinez/" target="_blank">LinkedIn</a>
+                <a class="work-links" style="display: none;" href="https://github.com/isama22" target="_blank">GitHub</a>
+                <a class="work-links" style="display: none;" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=isasofma@gmail.com" target="_blank"
                     rel="noopener noreferrer">Email</a>
             </div>
         </div>
