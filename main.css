@@ -42,17 +42,25 @@ body {
     margin-top: 100px;
 }
 
+.about {
+    cursor: pointer;
+}
+.skill {
+    cursor: pointer;
+}
 #about {
     margin-top: 70px;
     padding: 30px;
     display: flex;
     justify-content: center;
+
 }
 
 #show-skills {
     margin: 30px;
     display: flex;
     justify-content: center;
+
 }
 h3 {
     margin-left: 20px;
