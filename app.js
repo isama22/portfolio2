@@ -24,7 +24,7 @@ $(document).ready(function(){
 // --- fade in functions --- 
 
 $(document).ready(function(){
-    $(".underline").click(function(){
+    $(".contact-fade").click(function(){
       $(".work-links").fadeIn(3000);
     });
   });
