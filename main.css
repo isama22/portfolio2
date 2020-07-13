@@ -13,6 +13,11 @@ body {
     border-bottom: solid 1px bisque;
 }
 
+.logo:hover {
+    cursor: pointer;
+    opacity: 0.80;
+    font-weight: bolder;
+}
 .background {
     background-color: rgba(0, 0, 0);
     width: 1350px;

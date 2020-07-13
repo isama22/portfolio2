@@ -12,6 +12,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+//--pre tag logo refreshed page --
+
+$(document).ready(function(){
+  $(".logo").click(function(){
+    location.reload(true)
+  })
+})
+
+
 // --- fade in functions --- 
 
 $(document).ready(function(){
