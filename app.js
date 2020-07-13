@@ -15,7 +15,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // --- fade in functions --- 
 
 $(document).ready(function(){
-    $(".underline").click(function(){
+    $(".contact").click(function(){
       $(".work-links").fadeIn(3000);
     });
   });
