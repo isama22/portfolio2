@@ -68,6 +68,9 @@ body {
 #dot {
     margin-left: 650px;
 }
+#dot2 {
+    margin-left: 650px;
+}
 
 #about2 {
     margin-left: 150px;
@@ -77,6 +80,13 @@ body {
     width: 1000px;
 }
 
+#about3 {
+    margin-left: 150px;
+    /* padding-left: 30px; */
+    line-height: 2;
+    text-align: center;
+    width: 1000px;
+}
 #show-skills {
     margin: 30px;
     display: flex;

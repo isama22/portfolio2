@@ -48,6 +48,18 @@ $(document).ready(function(){
     });
   });
 
+  $(document).ready(function(){
+    $(".about").click(function(){
+      $("#dot2").fadeIn(12000);
+    });
+  });
+
+  $(document).ready(function(){
+    $(".about").click(function(){
+      $('#about3').fadeIn(14000);
+    });
+  });
+
 //--skills section--
 $(document).ready(function(){
     $(".skill").click(function(){
