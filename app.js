@@ -36,6 +36,18 @@ $(document).ready(function(){
     });
   });
 
+  $(document).ready(function(){
+    $(".about").click(function(){
+      $("#dot").fadeIn(6000);
+    });
+  });
+
+  $(document).ready(function(){
+    $(".about").click(function(){
+      $('#about2').fadeIn(10000);
+    });
+  });
+
 //--skills section--
 $(document).ready(function(){
     $(".skill").click(function(){
