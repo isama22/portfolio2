@@ -323,9 +323,9 @@ a:hover {
         text-align: justify;
     }
     #fp-header {
-        width: 280px;
-        display: flex;
-        justify-content: center;
+        width: 300px;
+        /* display: flex;
+        justify-content: center; */
     }
     #projects-container {
         display: flex;
