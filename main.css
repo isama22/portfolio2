@@ -1,6 +1,5 @@
 body {
     background-color: rgba(0, 0, 0);
-    font-family: Helvetica;
     background-image: url(https://media3.giphy.com/media/QWvrm9qorO2SJMtgYs/giphy.gif);
     background-size: 70%;
     font-family: monospace;
@@ -68,6 +67,7 @@ body {
 #dot {
     margin-left: 650px;
 }
+
 #dot2 {
     margin-left: 650px;
 }
@@ -87,6 +87,7 @@ body {
     text-align: center;
     width: 1000px;
 }
+
 #show-skills {
     margin: 30px;
     display: flex;
@@ -141,7 +142,7 @@ p {
     padding: 20px;
     color: rgba(227, 157, 132);
     display: flex;
-    margin: 50px;
+    margin: 50px 50px 50px 200px;
 }
 
 .description-p {
@@ -166,18 +167,19 @@ p {
     width: 320px;
 }
 
-.isa-div {
+/* .isa-div {
     padding: 10px;
     width: 380px;
     height: 100px;
     margin-left: 150px;
     margin-top: 55px;
-}
+} */
 
 .isa-img {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 320px;
 }
 
 a {
@@ -219,5 +221,221 @@ a:hover {
     font-size: 12px;
     opacity: 50%;
 }
+.mobile-logo {
+    display: none;
+}
 
 
+
+.how-project-div {
+    height: 270px;
+    width: 900px;
+    padding: 20px;
+    color: rgba(227, 157, 132);
+    display: flex;
+    margin: 50px 50px 50px 200px;
+}
+
+.how-description-p {
+    margin-top: 30px;
+    width: 400px;
+}
+
+.how-description-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.how-description-img {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.how-img-size {
+    width: 320px;
+}
+
+
+@media screen and (max-width: 375px) {
+    body {
+        background-size: 170%;
+    }
+    .background {
+        width: 300px;
+        border: solid 2px;
+        border-color: rgba(227, 189, 187, 0.5);
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px 20px 20px 15px;
+    }
+    .logo {
+        display: none;
+    }
+    .mobile-logo {
+        display: inline-block;
+        width: 280px;
+    }
+    #about {
+        line-height: 2;
+        width: 250px;
+        margin: 40px 0px 0px 28px;
+        text-align: justify;
+    }
+    #dot {
+        margin-left: 149px;
+    }
+    #dot2 {
+        margin-left: 149px;
+    }
+    #about2 {
+        margin: 20px 0px 0px 25px;
+        line-height: 2;
+        width: 250px;
+        text-align: justify;
+    }
+    #about3 {
+        margin: 20px 0px 0px 30px;
+        line-height: 2;
+        width: 250px;
+        text-align: justify;
+    }
+    #show-skills {
+        margin: 40px 0px 0px 25px;
+        display: flex;
+        justify-content: center;
+        line-height: 2;
+        width: 250px;
+        text-align: justify;
+    }
+    #fp-header {
+        width: 280px;
+        display: flex;
+        justify-content: center;
+    }
+    #projects-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        /* margin: 50px; */
+    }
+    .project-div {
+        height: 450px;
+        width: 250px;
+        padding: 20px;
+        color: rgba(227, 157, 132);
+        margin-left: 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-bottom: solid 1px bisque;
+        padding-bottom: 30px;
+    }
+    h4 {
+        margin-left: 10px;
+    }
+    .description {
+        height: 200px;
+    }
+    .description-p {
+        margin-left: 10px;
+        width: 280px;
+        /* height: 100px; */
+    }
+    .description-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 0px;
+        /* margin-right: 80px; */
+        margin-top: 50px;
+    }
+    .description-img {
+        margin: 30px 40px 40px 40px;
+    }
+    .technologies {
+        text-align: center;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .img-size {
+        width: 250px;
+        margin-top: 80px;
+    }
+    /* .isa-div {
+        padding: 10px;
+        width: 380px;
+        height: 200px;
+        margin-left: 150px;
+        margin-top: 55px;
+    } */
+    .isa-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    /* how do i explain div  */
+    .how-project-div {
+        height: 520px;
+        width: 250px;
+        padding: 20px;
+        color: rgba(227, 157, 132);
+        margin-left: 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-bottom: solid 1px bisque;
+        padding-bottom: 30px;
+    }
+    .how-description {
+        height: 200px;
+    }
+    .how-description-p {
+        margin-left: 10px;
+        width: 280px;
+        /* height: 100px; */
+    }
+    .how-description-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 0px;
+        /* margin-right: 80px; */
+        margin-top: 50px;
+    }
+    .how-description-img {
+        margin: 120px 40px 40px 40px;
+    }
+    .how-technologies {
+        text-align: center;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        opacity: 50%;
+    }
+    .how-img-size {
+        width: 250px;
+        margin-top: 70px;
+    }
+    #work-links-container {
+        line-height: 3;
+        text-align: center;
+        padding: 0px 30px 70px 30px;
+    }
+    .work-links {
+        padding: 50px;
+    }
+}
