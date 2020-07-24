@@ -162,8 +162,17 @@ p {
     align-items: center;
     justify-content: flex-end;
 }
+.r-description-img {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 
 .img-size {
+    width: 320px;
+}
+.r-img-size {
     width: 320px;
 }
 
@@ -361,9 +370,7 @@ a:hover {
         margin: 30px 40px 40px 40px;
     }
     .r-description-img {
-        margin: 0px;
-        border: 20px solid white;
-
+        margin: 50px 40px 40px 40px;
     }
     .technologies {
         text-align: center;
