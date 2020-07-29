@@ -30,9 +30,10 @@ $(document).ready(function(){
   });
 
 //--about--
+
   $(document).ready(function(){
     $(".about").click(function(){
-      $("#about").fadeIn(2000);
+      $('#about').fadeIn(4000);
     });
   });
 
@@ -44,19 +45,7 @@ $(document).ready(function(){
 
   $(document).ready(function(){
     $(".about").click(function(){
-      $('#about2').fadeIn(10000);
-    });
-  });
-
-  $(document).ready(function(){
-    $(".about").click(function(){
-      $("#dot2").fadeIn(12000);
-    });
-  });
-
-  $(document).ready(function(){
-    $(".about").click(function(){
-      $('#about3').fadeIn(14000);
+      $('#about2').fadeIn(12000);
     });
   });
 

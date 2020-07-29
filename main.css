@@ -72,16 +72,16 @@ body {
     margin-left: 650px;
 }
 
-#about2 {
-    margin-left: 150px;
+#about {
+    margin-left: 175px;
     /* padding-left: 30px; */
     line-height: 2;
-    text-align: center;
+    text-align: justify;
     width: 1000px;
 }
 
-#about3 {
-    margin-left: 150px;
+#about2 {
+    margin-left: 175px;
     /* padding-left: 30px; */
     line-height: 2;
     text-align: center;
@@ -287,28 +287,28 @@ a:hover {
     }
     .mobile-logo {
         display: inline-block;
-        width: 320px;
+        width: 340px;
         height: 50px;
     }
-    #about {
+    /* #about {
         line-height: 2;
         width: 250px;
         margin: 40px 0px 0px 28px;
         text-align: justify;
-    }
+    } */
     #dot {
         margin-left: 149px;
     }
     #dot2 {
         margin-left: 149px;
     }
-    #about2 {
+    #about {
         margin: 20px 0px 0px 25px;
         line-height: 2;
         width: 250px;
         text-align: justify;
     }
-    #about3 {
+    #about2 {
         margin: 20px 0px 0px 30px;
         line-height: 2;
         width: 250px;
