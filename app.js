@@ -49,6 +49,7 @@ $(document).ready(function(){
     });
   });
 
+
 //--skills section--
 $(document).ready(function(){
     $(".skill").click(function(){
