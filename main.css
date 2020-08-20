@@ -365,7 +365,7 @@ a:hover {
         margin: 20px 20px 20px 15px;
     }
     .page-link {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     .logo {
         display: none;
@@ -381,19 +381,19 @@ a:hover {
         justify-content: center;
     }
     #about {
-        margin: 20px 0px 0px 35px;
+        margin: 0px 0px 0px 35px;
         line-height: 2;
         width: 250px;
         text-align: justify;
     }
     #about2 {
-        margin: 20px 0px 0px 35px;
+        margin: 20px 0px 30px 35px;
         line-height: 2;
         width: 250px;
         text-align: justify;
     }
     #show-skills {
-        margin: 40px 0px 0px 35px;
+        margin: 40px 0px 40px 35px;
         display: flex;
         justify-content: center;
         line-height: 2;
