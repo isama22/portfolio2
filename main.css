@@ -447,7 +447,8 @@ a:hover {
     }
     .technologies {
         text-align: center;
-        margin: 50px 10px 0px 10px;
+        width: 270px;
+        margin: 50px 0px 20px 0px;
     }
     .img-size {
         width: 250px;
