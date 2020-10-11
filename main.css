@@ -426,9 +426,11 @@ a:hover {
     .description {
         height: 200px;
         width: 300px;
+        margin-top: 0px;
     }
     .description-p {
         margin-left: 10px;
+        margin-bottom: 100px;
         width: 280px;
     }
     .description-links {
