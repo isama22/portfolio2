@@ -445,10 +445,7 @@ a:hover {
     }
     .technologies {
         text-align: center;
-        /* margin-top: 50px; */
-        margin: 50px 10px 0px 10px;
-        display: flex;
-        justify-content: center;
+        margin: 100px 10px 0px 10px;
     }
     .img-size {
         width: 250px;
