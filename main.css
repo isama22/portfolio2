@@ -22,8 +22,7 @@ body {
 
 .logo:hover {
     cursor: pointer;
-    opacity: 0.80;
-    font-weight: bolder;
+    color: 	black;
 }
 
 .background {
@@ -374,7 +373,7 @@ a:hover {
     .mobile-logo {
         display: inline-block;
         width: 320px;
-        height: 50px;
+        height: 60px;
     }
     #dot {
         margin: 4vw 4vw 1vw 4vw;
@@ -446,7 +445,8 @@ a:hover {
     }
     .technologies {
         text-align: center;
-        margin-top: 30px;
+        /* margin-top: 50px; */
+        margin: 50px 10px 0px 10px;
         display: flex;
         justify-content: center;
     }
