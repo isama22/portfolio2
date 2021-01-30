@@ -415,7 +415,7 @@ a:hover {
         padding: 20px;
         padding-top: 50px;
         color: rgba(227, 157, 132);
-        margin: 30px 0px 0px 25px;
+        margin: 50px 0px 0px 25px;
         flex-direction: column;
         border-bottom: solid 1px bisque;
         padding-bottom: 30px;
@@ -424,31 +424,31 @@ a:hover {
         margin-left: 10px;
     }
     .description {
-        height: 200px;
+        /* height: 100px; */
         width: 300px;
         margin-top: 0px;
     }
     .description-p {
         margin-left: 10px;
-        margin-bottom: 100px;
+        margin-bottom: 10px;
         width: 280px;
     }
     .description-links {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
     }
     .description-img {
-        margin: 30px 40px 40px 40px;
+        margin: 0px 40px 40px 40px;
     }
     .r-description-img {
-        margin: 50px 40px 40px 40px;
+        margin: 0px 40px 40px 40px;
     }
     .technologies {
         text-align: center;
         width: 270px;
-        margin: 50px 0px 30px 0px;
+        margin: 30px 0px 30px 18px;
     }
     .img-size {
         width: 250px;
@@ -456,7 +456,7 @@ a:hover {
     }
     .r-img-size {
         width: 250px;
-        margin-top: 40px;
+        margin-top: 0px;
     }
     .isa-img {
         display: flex;
