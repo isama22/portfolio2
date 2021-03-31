@@ -42,8 +42,9 @@ body {
 .page-link {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 40px;
+    justify-content: space-between;
+    margin: 40px 70px 0px 70px;
+    margin: 4% 7% 0% 7%;
 }
 
 .header {
