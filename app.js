@@ -14,20 +14,20 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 //--pre tag logo refreshed page --
 
-$(document).ready(function(){
-  $(".logo").click(function(){
-    location.reload(true)
-  })
-})
+// $(document).ready(function(){
+//   $(".logo").click(function(){
+//     location.reload(true)
+//   })
+// })
 
 
 // --- fade in functions --- 
 
-$(document).ready(function(){
-    $(".contact-fade").click(function(){
-      $(".work-links").fadeIn(3000);
-    });
-  });
+// $(document).ready(function(){
+//     $(".contact-fade").click(function(){
+//       $(".work-links").fadeIn(3000);
+//     });
+//   });
 
 //--about--
 
